@@ -12,6 +12,15 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 - Unterstützung agiler Entwicklungsprozesse und kontinuierlicher Integration
 - Einhaltung von Compliance- und Regulierungsanforderungen
 
+## 1.4 Stakeholder
+
+| Name         | Rolle                | Kontakt          | Erwartungen                       |
+|--------------|----------------------|------------------|-----------------------------------|
+| Mario Tema   | Enterprise Architect | microtema@web.de | Architektur-Design und -Bewertung |
+| Julius Cesar | Solution Architect   | julius@cesar.de  | Lösungsdesign und Implementierung |
+| Marco Polo   | Projekt Manager      | marcpo@polo.de   | ...                               |
+| ---          | ---                  | ---              | ---                               |
+
 ## 2. Randbedingungen
 ### 2.1 Technische Randbedingungen
 - Einsatz von Cloud-native Technologien (z.B. Kubernetes, Docker)
