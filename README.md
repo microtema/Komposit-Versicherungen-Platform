@@ -12,7 +12,7 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 - Unterstützung agiler Entwicklungsprozesse und kontinuierlicher Integration
 - Einhaltung von Compliance- und Regulierungsanforderungen
 
-## 1.4 Stakeholder
+## 1.3 Stakeholder
 
 | Name         | Rolle                | Kontakt          | Erwartungen                       |
 |--------------|----------------------|------------------|-----------------------------------|
