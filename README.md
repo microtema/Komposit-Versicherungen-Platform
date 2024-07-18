@@ -4,6 +4,8 @@
 ### 1.1 Einleitung
 Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Komposit-Versicherungen. Ziel ist es, eine klare und verständliche Struktur der Architektur darzustellen, um sowohl aktuelle Anforderungen als auch zukünftige Entwicklungen zu unterstützen.
 
+![05_Building-Block-View.png](./docs/images/05_Building-Block-View.png)
+
 ### 1.2 Ziele
 - Bereitstellung einer skalierbaren, flexiblen und hochverfügbaren Plattform
 - Sicherstellung der Integrität und Sicherheit der Daten
@@ -22,6 +24,13 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 - Einhaltung von branchenspezifischen Regulierungen
 
 ## 3. Kontextabgrenzung
+
+![03_Context_And_Scope.png](./docs/images/03_Context_And_Scope.png)
+
+### Business Model
+
+![03_Business_Model.png](./docs/images/03_Business_Model.png)
+
 ### 3.1 Business-Kontext
 - Integration mit Versicherungsmaklern, Kundenportalen und internen Systemen
 - Bereitstellung von APIs für externe Partner
@@ -37,10 +46,15 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 - Implementierung von CI/CD-Pipelines für automatisierte Tests und Bereitstellungen
 
 ## 5. Bausteinsicht
+
+![05_Building-Block-View_Level-1.png](./docs/images/05_Building-Block-View_Level-1.png)
+
 ### 5.1 Überblick
 - Frontend: Angular-basierte Webanwendung
 - Backend: Microservices mit Spring Boot und Kotlin
 - Datenbanken: PostgreSQL, MongoDB
+
+![05_Building-Block-View_Level-2.png](./docs/images/05_Building-Block-View_Level-2.png)
 
 ### 5.2 Hauptbausteine
 - User Management
@@ -56,6 +70,21 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 ## 7. Verteilungssicht
 - Verteilung der Microservices über verschiedene Kubernetes-Cluster
 - Netzwerkdiagramme zur Darstellung der Kommunikation zwischen den Clustern und externen Systemen
+
+### Branching Model
+![07_Branching_Model.png](./docs/images/07_Branching_Model.png)
+
+### Multi Repo
+![07_Deployment.png](./docs/images/07_Deployment.png)
+
+### Backend Deployment
+![07_CI_CD_Service_Pipelines.png](./docs/images/07_CI_CD_Service_Pipelines.png)
+
+### Frontend Deployment
+![07_CI_CD_UI_Pipelines.png](./docs/images/07_CI_CD_UI_Pipelines.png)
+
+### Library Deployment
+![07_CI_CD_Library_Pipelines.png](./docs/images/07_CI_CD_Library_Pipelines.png)
 
 ## 8. Querschnittliche Konzepte
 ### 8.1 Sicherheitskonzepte
