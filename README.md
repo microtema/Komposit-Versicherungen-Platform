@@ -119,4 +119,30 @@ Diese Dokumentation beschreibt die Softwarearchitektur der Plattform für Kompos
 - Strategien zur Minimierung technischer Schulden (z.B. regelmäßige Code-Reviews, Refactoring)
 
 ## 12. Glossar
-- Definition von Fachbegriffen und Abkürzungen, die in der Dokumentation verwendet werden.
+
+Definition von Fachbegriffen und Abkürzungen, die in der Dokumentation verwendet werden.
+
+| Begriff / Abkürzung | Beschreibung                                                                                                                    |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| API                 | Application Programming Interface, Schnittstelle zur Integration von Softwareanwendungen                                        |
+| BPMN                | Business Process Model and Notation, ein Standard zur Modellierung von Geschäftsprozessen                                       |
+| CI/CD               | Continuous Integration / Continuous Deployment, Praktiken für die kontinuierliche Integration und Bereitstellung von Software   |
+| Clean Code          | Softwareentwicklungsmethode, die sauberen, lesbaren und wartbaren Code fördert                                                  |
+| DevOps              | Kombination aus Development (Entwicklung) und Operations (Betrieb), zur Förderung der Zusammenarbeit zwischen diesen Teams      |
+| Docker              | Plattform für die Entwicklung, Lieferung und Ausführung von Anwendungen in Containern                                           |
+| ELK-Stack           | Sammlung von drei Open-Source-Produkten: Elasticsearch, Logstash und Kibana, für Suche, Analyse und Visualisierung von Logdaten |
+| gRPC                | Remote Procedure Call (RPC)-System, das von Google entwickelt wurde                                                             |
+| HTML5               | Markup-Sprache für die Strukturierung und Präsentation von Inhalten im Web                                                      |
+| J2EE                | Java 2 Platform, Enterprise Edition, eine Plattform für die Entwicklung von Unternehmensanwendungen                             |
+| Kafka               | Open-Source-Stream-Processing-Plattform, die von der Apache Software Foundation entwickelt wurde                                |
+| Kubernetes          | Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen          |
+| Microservices       | Architekturstil, bei dem eine Anwendung als Sammlung von kleinen, unabhängigen Diensten entwickelt wird                         |
+| OAuth2              | Authentifizierungsprotokoll, das für die sichere Autorisierung von Benutzerzugriffen verwendet wird                             |
+| PostgreSQL          | Open-Source-Objektrelationales Datenbankmanagementsystem                                                                        |
+| RESTful APIs        | Architekturstil für die Implementierung von Netzwerkdiensten, der auf representational state transfer (REST) basiert            |
+| SCRUM               | Agile Projektmanagementmethode zur Verbesserung der Produktentwicklung                                                          |
+| SQL                 | Structured Query Language, eine standardisierte Sprache für den Zugriff auf und die Manipulation von Datenbanken                |
+| UI                  | User Interface, Benutzeroberfläche einer Softwareanwendung                                                                      |
+| YAML                | Yet Another Markup Language, eine menschenlesbare Datenserialisierungsstandard                                                  |
+| JSON                | JavaScript Object Notation, ein leichtes Datenformat zum Austausch zwischen Computern                                           |
+
